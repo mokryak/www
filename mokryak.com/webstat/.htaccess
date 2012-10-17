@@ -1,7 +1,0 @@
-AuthType Basic
-AuthName "/www/mokryak.com/webstat"
-AuthUserFile /home/admin/data/etc/53710156.passwd
-DirectoryIndex index.html
-<Limit GET POST>
-	require valid-user
-</Limit>
