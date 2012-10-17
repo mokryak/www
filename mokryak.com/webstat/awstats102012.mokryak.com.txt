@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.0 (build 1.971)
 # update).
 BEGIN_MAP 27
 POS_GENERAL 2001                
-POS_TIME 2650                
-POS_VISITOR 3302                
-POS_DAY 3374                
-POS_DOMAIN 3498                
-POS_LOGIN 3709                
-POS_ROBOT 3864                
-POS_WORMS 4033                
-POS_EMAILSENDER 4164                
-POS_EMAILRECEIVER 4307                
-POS_SESSION 4383                
-POS_SIDER 4520                
-POS_FILETYPES 4639                
-POS_DOWNLOADS 4703                
-POS_OS 4751                
-POS_BROWSER 4790                
-POS_SCREENSIZE 4840                
-POS_UNKNOWNREFERER 4914                
-POS_UNKNOWNREFERERBROWSER 5001                
-POS_ORIGIN 5083                
-POS_SEREFERRALS 5213                
-POS_PAGEREFS 5357                
-POS_SEARCHWORDS 5505                
-POS_KEYWORDS 5657                
-POS_MISC 2314                
-POS_ERRORS 5716                
-POS_CLUSTER 3565                
-POS_SIDER_404 5791                
+POS_TIME 2669                
+POS_VISITOR 6773                
+POS_DAY 7219                
+POS_DOMAIN 3323                
+POS_LOGIN 3550                
+POS_ROBOT 3705                
+POS_WORMS 4087                
+POS_EMAILSENDER 4218                
+POS_EMAILRECEIVER 4361                
+POS_SESSION 7415                
+POS_SIDER 7582                
+POS_FILETYPES 4496                
+POS_DOWNLOADS 4643                
+POS_OS 4691                
+POS_BROWSER 4821                
+POS_SCREENSIZE 5013                
+POS_UNKNOWNREFERER 5087                
+POS_UNKNOWNREFERERBROWSER 5273                
+POS_ORIGIN 5355                
+POS_SEREFERRALS 5489                
+POS_PAGEREFS 5633                
+POS_SEARCHWORDS 5781                
+POS_KEYWORDS 5933                
+POS_MISC 2333                
+POS_ERRORS 5992                
+POS_CLUSTER 3406                
+POS_SIDER_404 6101                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,14 +46,14 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20121001000001 53 5452 3510296379485
-FirstTime 
-LastTime 
-LastUpdate 20121001000102 53 0 53 0 0
-TotalVisits 0                   
-TotalUnique 0                   
+LastLine 20121017000003 121 10680 3514624901219
+FirstTime 0
+LastTime 20121015201136
+LastUpdate 20121017000109 121 0 121 0 0
+TotalVisits 11                  
+TotalUnique 10                  
 MonthHostsKnown 0                   
-MonthHostsUnknown 0                   
+MonthHostsUnknown 10                  
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
@@ -72,45 +72,36 @@ END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 0 0 0 1 1 904
-1 0 0 0 0 0 0
-2 0 0 0 0 0 0
-3 0 0 0 0 0 0
-4 0 0 0 0 0 0
-5 0 0 0 0 0 0
-6 0 0 0 0 0 0
-7 0 0 0 0 0 0
-8 0 0 0 0 0 0
-9 0 0 0 0 0 0
-10 0 0 0 0 0 0
-11 0 0 0 0 0 0
-12 0 0 0 0 0 0
-13 0 0 0 0 0 0
-14 0 0 0 0 0 0
-15 0 0 0 0 0 0
-16 0 0 0 0 0 0
-17 0 0 0 0 0 0
-18 0 0 0 0 0 0
-19 0 0 0 0 0 0
-20 0 0 0 0 0 0
-21 0 0 0 0 0 0
-22 0 0 0 0 0 0
-23 0 0 0 0 0 0
+0 15 70 366915 63 85 167623
+1 1 1 904 55 58 47632
+2 2 2 1808 61 64 45986
+3 0 0 0 58 62 51672
+4 0 0 0 53 53 43392
+5 0 0 0 55 55 44721
+6 1 1 904 49 49 43392
+7 0 0 0 55 55 43392
+8 0 0 0 66 68 50136
+9 10 17 317610 59 69 48744
+10 1 1 904 58 63 48048
+11 0 0 0 55 56 43600
+12 0 0 0 57 58 44037
+13 0 0 0 65 67 52385
+14 1 1 904 58 58 47442
+15 0 0 0 57 58 47233
+16 0 0 0 71 79 60640
+17 0 0 0 59 60 47432
+18 0 0 0 68 73 53694
+19 1 1 904 56 58 47445
+20 3 3 2712 65 69 51880
+21 0 0 0 57 59 48540
+22 1 1 904 57 64 52984
+23 0 0 0 53 53 44508
 END_TIME
-
-# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
-# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
-# The 10 first Hits must be first (order not required for others)
-BEGIN_VISITOR 0
-END_VISITOR
-
-# Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 0
-END_DAY
 
 # Domain - Pages - Hits - Bandwidth
 # The 10 first Pages must be first (order not required for others)
-BEGIN_DOMAIN 0
+BEGIN_DOMAIN 1
+ip 36 98 694469
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -124,8 +115,14 @@ END_LOGIN
 
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 10 first Hits must be first (order not required for others)
-BEGIN_ROBOT 1
-no_user_agent 1 904 20121001000001 0
+BEGIN_ROBOT 7
+no_user_agent 1298 1073048 20121017000003 0
+yandex 64 57856 20121016165743 0
+slurp 5 4520 20121006080127 0
+baiduspider 3 2712 20121004222338 0
+netcraft 2 904 20121008231307 0
+bot[\s_+:,\.\;\/\\-] 2 904 20121012102319 0
+mj12bot 1 904 20121004095914 0
 END_ROBOT
 
 # Worm ID - Hits - Bandwidth - Last visit
@@ -143,17 +140,13 @@ END_EMAILSENDER
 BEGIN_EMAILRECEIVER 0
 END_EMAILRECEIVER
 
-# Session range - Number of visits
-BEGIN_SESSION 0
-END_SESSION
-
-# URL - Pages - Bandwidth - Entry - Exit
-# The 10 first Pages must be first (order not required for others)
-BEGIN_SIDER 0
-END_SIDER
-
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
-BEGIN_FILETYPES 0
+BEGIN_FILETYPES 5
+css 49 51843 0 0
+php 24 82651 0 0
+html 12 10848 0 0
+js 10 548398 0 0
+gif 3 729 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -161,11 +154,30 @@ BEGIN_DOWNLOADS 0
 END_DOWNLOADS
 
 # OS ID - Hits
-BEGIN_OS 0
+BEGIN_OS 9
+macosx 1
+blackberry 2
+winlong 3
+winxp 71
+win2003 1
+winnt 1
+Unknown 1
+linuxfedora 1
+win7 17
 END_OS
 
 # Browser ID - Hits
-BEGIN_BROWSER 0
+BEGIN_BROWSER 10
+msie6.0 1
+blackberry 2
+mozilla 1
+msie7.0 3
+chrome22.0.1229.79 17
+firefox3.5.2 1
+msie5.5 1
+firefox3.5.3 1
+chrome22.0.1229.91 70
+safari6.0.1 1
 END_BROWSER
 
 # Screen size - Hits
@@ -173,7 +185,8 @@ BEGIN_SCREENSIZE 0
 END_SCREENSIZE
 
 # Unknown referer OS - Last visit date
-BEGIN_UNKNOWNREFERER 0
+BEGIN_UNKNOWNREFERER 1
+Mozilla/4.0_(compatible;_http://search.thunderstone.com/texis/websearch/about.html) 20121011200636
 END_UNKNOWNREFERER
 
 # Unknown referer Browser - Last visit date
@@ -182,11 +195,11 @@ END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 0 0
+From0 16 16
 From1 0 0
 From2 0 0
 From3 0 0
-From4 0 0
+From4 20 82
 From5 0 0
 END_ORIGIN
 
@@ -210,9 +223,68 @@ BEGIN_KEYWORDS 0
 END_KEYWORDS
 
 # Errors - Hits - Bandwidth
-BEGIN_ERRORS 0
+BEGIN_ERRORS 3
+302 1 0
+500 6 118871
+404 85 16839
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referer
-BEGIN_SIDER_404 0
+BEGIN_SIDER_404 14
+/ad2/images/AGENT.GIF 1 -
+/robots.txt 52 -
+/phpmyadmin/translators.html 2 -
+/icons/apache_pb.gif 1 -
+/images/LOGO-4.GIF 1 -
+/ad2/images/LOGO-4.GIF 1 -
+/manager/status 4 -
+//jmx-console/HtmlAdaptor 1 -
+/phpMyAdmin/translators.html 2 -
+/autoupdate.php 11 -
+/r/guest.php 3 -
+/user/soapCaller.bs 4 -
+http://myproxylists.com/my-http-headers 1 -
+/images/AGENT.GIF 1 -
 END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 10
+95.25.184.19 16 71 367819 20121002223346
+94.143.34.14 10 17 317610 20121002095621
+38.99.82.191 2 2 1808 20121008023106
+69.58.178.59 2 2 1808 20121015201136
+206.183.1.74 1 1 904 20121011200636
+50.112.107.16 1 1 904 20121004193949
+38.100.21.63 1 1 904 20121009063503
+216.240.136.96 1 1 904 20121015103642
+76.74.97.4 1 1 904 20121002145245
+69.58.178.58 1 1 904 20121006013420
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20121002 27 89 686333 4
+20121004 1 1 904 1
+20121006 1 1 904 1
+20121008 2 2 1808 1
+20121009 1 1 904 1
+20121011 1 1 904 1
+20121015 3 3 2712 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+5mn-15mn 1
+0s-30s 9
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/index.php 23 77508 0 2
+/ 12 10848 10 9
+/requirements.php 1 5143 1 0
+END_SIDER
