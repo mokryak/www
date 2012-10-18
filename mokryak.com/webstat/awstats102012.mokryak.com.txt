@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.0 (build 1.971)
 # update).
 BEGIN_MAP 27
 POS_GENERAL 2001                
-POS_TIME 2669                
-POS_VISITOR 6773                
-POS_DAY 7219                
-POS_DOMAIN 3323                
-POS_LOGIN 3550                
-POS_ROBOT 3705                
-POS_WORMS 4087                
-POS_EMAILSENDER 4218                
-POS_EMAILRECEIVER 4361                
-POS_SESSION 7415                
-POS_SIDER 7582                
-POS_FILETYPES 4496                
-POS_DOWNLOADS 4643                
-POS_OS 4691                
-POS_BROWSER 4821                
-POS_SCREENSIZE 5013                
-POS_UNKNOWNREFERER 5087                
-POS_UNKNOWNREFERERBROWSER 5273                
-POS_ORIGIN 5355                
-POS_SEREFERRALS 5489                
-POS_PAGEREFS 5633                
-POS_SEARCHWORDS 5781                
-POS_KEYWORDS 5933                
-POS_MISC 2333                
-POS_ERRORS 5992                
-POS_CLUSTER 3406                
-POS_SIDER_404 6101                
+POS_TIME 2670                
+POS_VISITOR 6974                
+POS_DAY 7423                
+POS_DOMAIN 3350                
+POS_LOGIN 3580                
+POS_ROBOT 3735                
+POS_WORMS 4117                
+POS_EMAILSENDER 4248                
+POS_EMAILRECEIVER 4391                
+POS_SESSION 7646                
+POS_SIDER 7813                
+POS_FILETYPES 4526                
+POS_DOWNLOADS 4716                
+POS_OS 4764                
+POS_BROWSER 4895                
+POS_SCREENSIZE 5110                
+POS_UNKNOWNREFERER 5184                
+POS_UNKNOWNREFERERBROWSER 5370                
+POS_ORIGIN 5452                
+POS_SEREFERRALS 5588                
+POS_PAGEREFS 5732                
+POS_SEARCHWORDS 5880                
+POS_KEYWORDS 6032                
+POS_MISC 2334                
+POS_ERRORS 6091                
+POS_CLUSTER 3436                
+POS_SIDER_404 6220                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,11 +46,11 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20121017000003 121 10680 3514624901219
+LastLine 20121018000007 454 108132 3514692010084
 FirstTime 0
-LastTime 20121015201136
-LastUpdate 20121017000109 121 0 121 0 0
-TotalVisits 11                  
+LastTime 20121017200018
+LastUpdate 20121018000111 454 0 454 0 0
+TotalVisits 13                  
 TotalUnique 10                  
 MonthHostsKnown 0                   
 MonthHostsUnknown 10                  
@@ -72,36 +72,36 @@ END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 15 70 366915 63 85 167623
-1 1 1 904 55 58 47632
-2 2 2 1808 61 64 45986
-3 0 0 0 58 62 51672
-4 0 0 0 53 53 43392
-5 0 0 0 55 55 44721
-6 1 1 904 49 49 43392
-7 0 0 0 55 55 43392
-8 0 0 0 66 68 50136
-9 10 17 317610 59 69 48744
-10 1 1 904 58 63 48048
-11 0 0 0 55 56 43600
-12 0 0 0 57 58 44037
-13 0 0 0 65 67 52385
-14 1 1 904 58 58 47442
-15 0 0 0 57 58 47233
-16 0 0 0 71 79 60640
-17 0 0 0 59 60 47432
-18 0 0 0 68 73 53694
-19 1 1 904 56 58 47445
-20 3 3 2712 65 69 51880
-21 0 0 0 57 59 48540
-22 1 1 904 57 64 52984
-23 0 0 0 53 53 44508
+0 15 70 366915 67 89 171239
+1 1 1 904 59 62 51248
+2 2 2 1808 65 69 49810
+3 0 0 0 63 67 56192
+4 0 0 0 57 58 47216
+5 0 0 0 59 59 48337
+6 1 1 904 54 54 47008
+7 0 0 0 60 60 47008
+8 0 0 0 71 73 53752
+9 10 17 317610 63 74 52577
+10 1 1 904 64 69 51664
+11 0 0 0 59 60 47216
+12 0 0 0 58 59 44941
+13 0 0 0 66 68 53289
+14 1 1 904 63 63 51058
+15 0 0 0 61 62 50849
+16 0 0 0 76 84 64463
+17 20 62 405117 72 93 51048
+18 16 67 1466252 75 84 57573
+19 109 163 810742 61 73 51965
+20 16 16 109968 69 74 55496
+21 0 0 0 62 64 52156
+22 1 1 904 61 68 56600
+23 0 0 0 57 57 48124
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
 # The 10 first Pages must be first (order not required for others)
 BEGIN_DOMAIN 1
-ip 36 98 694469
+ip 193 402 3482932
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -116,12 +116,12 @@ END_LOGIN
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 10 first Hits must be first (order not required for others)
 BEGIN_ROBOT 7
-no_user_agent 1298 1073048 20121017000003 0
-yandex 64 57856 20121016165743 0
+no_user_agent 1396 1154408 20121018000007 0
+yandex 66 59664 20121017194915 0
 slurp 5 4520 20121006080127 0
 baiduspider 3 2712 20121004222338 0
-netcraft 2 904 20121008231307 0
 bot[\s_+:,\.\;\/\\-] 2 904 20121012102319 0
+netcraft 2 904 20121008231307 0
 mj12bot 1 904 20121004095914 0
 END_ROBOT
 
@@ -141,12 +141,14 @@ BEGIN_EMAILRECEIVER 0
 END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
-BEGIN_FILETYPES 5
-css 49 51843 0 0
-php 24 82651 0 0
-html 12 10848 0 0
-js 10 548398 0 0
-gif 3 729 0 0
+BEGIN_FILETYPES 7
+css 75 385657 0 0
+php 164 876326 0 0
+png 57 243578 0 0
+html 29 268067 0 0
+jpg 4 176222 0 0
+js 32 1496121 0 0
+gif 41 36961 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -157,21 +159,22 @@ END_DOWNLOADS
 BEGIN_OS 9
 macosx 1
 blackberry 2
-winlong 3
 winxp 71
+winlong 3
 win2003 1
 winnt 1
 Unknown 1
 linuxfedora 1
-win7 17
+win7 321
 END_OS
 
 # Browser ID - Hits
-BEGIN_BROWSER 10
+BEGIN_BROWSER 11
 msie6.0 1
 blackberry 2
 mozilla 1
 msie7.0 3
+chrome22.0.1229.94 304
 chrome22.0.1229.79 17
 firefox3.5.2 1
 msie5.5 1
@@ -195,11 +198,11 @@ END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 16 16
+From0 28 28
 From1 0 0
 From2 0 0
 From3 0 0
-From4 20 82
+From4 165 374
 From5 0 0
 END_ORIGIN
 
@@ -223,26 +226,30 @@ BEGIN_KEYWORDS 0
 END_KEYWORDS
 
 # Errors - Hits - Bandwidth
-BEGIN_ERRORS 3
-302 1 0
+BEGIN_ERRORS 5
+401 1 28
+302 10 0
 500 6 118871
-404 85 16839
+301 1 235
+404 89 17679
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referer
-BEGIN_SIDER_404 14
+BEGIN_SIDER_404 16
 /ad2/images/AGENT.GIF 1 -
-/robots.txt 52 -
-/phpmyadmin/translators.html 2 -
-/icons/apache_pb.gif 1 -
-/images/LOGO-4.GIF 1 -
+/robots.txt 54 -
 /ad2/images/LOGO-4.GIF 1 -
+/images/LOGO-4.GIF 1 -
+/icons/apache_pb.gif 1 -
+/phpmyadmin/translators.html 2 -
 /manager/status 4 -
-//jmx-console/HtmlAdaptor 1 -
-/phpMyAdmin/translators.html 2 -
 /autoupdate.php 11 -
-/r/guest.php 3 -
+/phpMyAdmin/translators.html 2 -
+//jmx-console/HtmlAdaptor 1 -
+http://www.yazoodle.net/azenv.php 1 -
 /user/soapCaller.bs 4 -
+/r/guest.php 3 -
+http://www.esda.org/images/Calmeras.jpg 1 -
 http://myproxylists.com/my-http-headers 1 -
 /images/AGENT.GIF 1 -
 END_SIDER_404
@@ -251,20 +258,20 @@ END_SIDER_404
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 10 first Hits must be first (order not required for others)
 BEGIN_VISITOR 10
+94.143.34.14 167 321 3106073 20121017200018
 95.25.184.19 16 71 367819 20121002223346
-94.143.34.14 10 17 317610 20121002095621
 38.99.82.191 2 2 1808 20121008023106
 69.58.178.59 2 2 1808 20121015201136
 206.183.1.74 1 1 904 20121011200636
 50.112.107.16 1 1 904 20121004193949
 38.100.21.63 1 1 904 20121009063503
 216.240.136.96 1 1 904 20121015103642
-76.74.97.4 1 1 904 20121002145245
 69.58.178.58 1 1 904 20121006013420
+76.74.97.4 1 1 904 20121002145245
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 7
+BEGIN_DAY 8
 20121002 27 89 686333 4
 20121004 1 1 904 1
 20121006 1 1 904 1
@@ -272,19 +279,37 @@ BEGIN_DAY 7
 20121009 1 1 904 1
 20121011 1 1 904 1
 20121015 3 3 2712 2
+20121017 157 304 2788463 2
 END_DAY
 
 # Session range - Number of visits
 BEGIN_SESSION 3
-5mn-15mn 1
+5mn-15mn 2
 0s-30s 9
-30mn-1h 1
+30mn-1h 2
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 10 first Pages must be first (order not required for others)
-BEGIN_SIDER 3
-/index.php 23 77508 0 2
-/ 12 10848 10 9
+BEGIN_SIDER 20
+/manager/min/index.php 36 183637 0 0
+/index.php 25 77746 0 3
+/connectors/resource/index.php 23 20778 0 0
+/connectors/system/registry/register.php 22 2498 0 1
+/manager/ 15 256170 1 0
+/ 13 11752 11 9
+/setup/index.php 10 44735 0 0
+/connectors/lang.js.php 9 402460 0 0
+/connectors/layout/modx.config.js.php 9 112364 0 0
+/connectors/element/index.php 6 2959 0 0
+/connectors/security/user.php 4 1321 0 0
+/setup/ 1 145 0 0
+/connectors/element/template/tv.php 1 26 0 0
 /requirements.php 1 5143 1 0
+/connectors/system/derivatives.php 4 760 0 0
+/connectors/system/contenttype.php 4 3904 0 0
+/connectors/element/template.php 5 2065 0 0
+/setup/processors/connector.php 2 15724 0 0
+/connectors/element/propertyset.php 1 84 0 0
+/connectors/resource/locks.php 2 122 0 0
 END_SIDER
